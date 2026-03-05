@@ -2,3 +2,6 @@
 # Dolt database files (added by bd init)
 .dolt/
 *.db
+
+# Vale synced styles (downloaded via `vale sync`)
+.vale/styles/

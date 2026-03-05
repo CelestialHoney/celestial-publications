@@ -1,0 +1,17 @@
+name: Prose Lint
+
+on:
+  pull_request:
+    paths:
+      - "articles/**"
+
+jobs:
+  vale:
+    name: Vale
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: errata-ai/vale-action@v2
+        with:
+          files: articles/
