@@ -15,8 +15,8 @@
 - [x] Decide: Large asset handling (Git LFS)
 - [x] Decide: PR template & editorial checklist
 - [x] Decide: Automation & tooling (conversion scripts, linters, spellcheck)
-- [ ] Set up Vale config for prose linting, spellcheck, and YAML frontmatter validation on `/articles/`
-- [ ] Set up GitHub Actions CI to run Vale on PRs touching `/articles/`
+- [x] Set up Vale config for prose linting, spellcheck, and YAML frontmatter validation on `/articles/`
+- [x] Set up GitHub Actions CI to run Vale on PRs touching `/articles/`
 
 ## Reasoning Log
 
