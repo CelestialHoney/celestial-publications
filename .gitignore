@@ -3,5 +3,9 @@
 .dolt/
 *.db
 
+# Beads/Dolt runtime artifacts
+.beads/dolt-server.*
+.beads/dolt/.bd-dolt-ok
+
 # Vale synced styles (downloaded via `vale sync`)
 .vale/styles/
