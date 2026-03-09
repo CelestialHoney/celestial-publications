@@ -1,0 +1,6 @@
+Starting server with Config HP="127.0.0.1:13538"|T="28800000"|R="false"|L="info"
+database "beads" is locked by another dolt process; either clone the database to run a second server, or stop the dolt process which currently holds an exclusive write lock on the database
+Starting server with Config HP="127.0.0.1:13538"|T="28800000"|R="false"|L="info"
+database "beads" is locked by another dolt process; either clone the database to run a second server, or stop the dolt process which currently holds an exclusive write lock on the database
+Starting server with Config HP="127.0.0.1:13538"|T="28800000"|R="false"|L="info"
+database "beads" is locked by another dolt process; either clone the database to run a second server, or stop the dolt process which currently holds an exclusive write lock on the database
