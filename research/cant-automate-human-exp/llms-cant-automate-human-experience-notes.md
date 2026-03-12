@@ -23,7 +23,38 @@ Even when LLMs are used to identify and suggest fixes, there are still serious m
 
 ## Key Points / Ideas
 
-_Notes from conversation will be added here._
+### What automated tools *can* do (establish the baseline fairly)
+
+Automated tools are genuinely good at detecting:
+- Heading hierarchy violations
+- Color contrast failures
+- Missing alt text on images (in many cases)
+
+Setting this baseline honestly matters — it makes the argument more credible when you turn to what they miss.
+
+### What automated tools miss (false negatives)
+
+Specific categories they struggle with:
+- Appropriate ARIA label usage
+- Interactive element accessibility (focus management, keyboard operability)
+- Many WCAG guidelines that require understanding context and user flow, not just markup inspection
+
+*Research task:* Use Gemini Deep Research to find concrete "big hitter" WCAG violations that automated tools miss — chosen specifically to make a business reader think "Oh gosh, we might have that." (Travis's framing.) Find a stat on what percentage of issues automated tools miss to use as a risk-framing hook.
+
+### What automated tools invent (false positives)
+
+Not just a miss problem — a wasted-effort problem.
+Travis's framing: "Not only are the things out there still there, you're still exposed — all the energy you're putting into this, for what."
+The SilkTide example in the raw notes below is a concrete instance of this.
+
+### Humanization strategy — two axes
+
+Celeste's framing from the writing sync:
+1. The end user who has a disability or accommodation need
+2. Celeste's own experience as an engineer using these tools
+
+Practical constraint: keep the personal narrative to a few sentences or a small paragraph.
+Enough to humanize; not enough to pull focus from the core argument.
 
 ---
 
@@ -72,7 +103,16 @@ For companies pursuing or holding B Corp status, accessibility isn't optional op
 
 ## Rough Outline
 
-_To be developed._
+Based on the emotional arc (concern → recognition → hope) and the writing sync discussion:
+
+1. **Hook** — concrete "big hitter" WCAG violation or stat on what percentage of issues automated tools miss; framed as a risk signal for business readers
+2. **What automation can do** — set the baseline fairly (heading hierarchy, contrast); acknowledge the genuine value
+3. **What it misses (false negatives)** — specific WCAG categories with concrete examples
+4. **What it invents (false positives)** — the wasted-effort argument; the SilkTide example
+5. **Why the gap is unfixable without lived experience** — the nervous system problem; LLMs understand rules but cannot feel the experience
+6. **What a real specialist brings** — the pitch; Celeste as the argument made flesh
+
+*Note: Many sections have room to expand into standalone articles. Keep this one focused and tight — personal platform is the place to explore overflow ideas.*
 
 ---
 
@@ -81,8 +121,10 @@ _To be developed._
 - Find a concrete scene: a real audit moment where a tool said "pass" and lived experience said otherwise. (Celeste to source.)
 - What does 8th Light uniquely offer that automation cannot replace?
 - Is there a good frame for explaining *why* screen reader simulation is fundamentally different from the real thing (for a non-technical buyer)?
-- What percentage / rough stats exist on how much automated tools miss? (Worth citing if available.)
+- What percentage / rough stats exist on how much automated tools miss? (Worth citing if available — and frame it as a risk signal: "they missed X% of issues.")
 - Disability market size stats to include: how many users, what spending power, what conversion/retention impact of accessibility? (Need citations.)
+- **B Corp nonprofit equivalent:** B Corp certification is specifically for for-profit companies. Research whether a nonprofit equivalent exists. (Came up in a conversation with Jenny — Celeste to follow up.)
+- **Concrete "big hitter" WCAG violations:** Research which specific WCAG violations automated tools are known to miss that would resonate with a business reader. Use Gemini Deep Research. Goal: a short list of violations that make a reader think "Oh gosh, we might have that."
 
 ---
 
@@ -131,4 +173,11 @@ The danger is that automation without human validation creates false confidence.
 Orgs can technically check off the list — every automated tool returns green — while still shipping an experience that is genuinely inaccessible.
 This is "WCAG compliance theater": the appearance of accessibility without the substance.
 True WCAG compliance requires validating what it actually *feels like* to use the product with a screen reader, keyboard only, high contrast mode, etc.
+
+---
+
+## Editorial Process
+
+- **Final review:** Shawn reviews articles before they go up on the 8th Light website.
+- Get his eye on a near-final draft before publishing.
 

@@ -239,7 +239,7 @@ Mar 12, 2026
 **Celeste Aronow:** Oh my god.
 **Travis Frisinger:** right? Because then you can poke at it and if there's an even bigger idea that comes forward, maybe I should bring this one over to 8th Light, or maybe I'll just keep it in my personal brand space. For me, the two kind of overflow,
 **Celeste Aronow:** Hey.
-**Travis Frisinger:** right? Sean's very on top of what I'm posting in my private capacity.  
+**Travis Frisinger:** right? Shawn's very on top of what I'm posting in my private capacity.  
    
  
 
@@ -269,12 +269,12 @@ Mar 12, 2026
 **Celeste Aronow:** where
 **Travis Frisinger:** There'll be a few iterations, but the more you can get a little detailed to hang in here and then take that forward
 **Celeste Aronow:** Yes
-**Travis Frisinger:** into the full document, you'll be well positioned. Absolutely. Sean's also really good at reviewing things — he does most of the final reviews on things that go up on the
+**Travis Frisinger:** into the full document, you'll be well positioned. Absolutely. Shawn's also really good at reviewing things — he does most of the final reviews on things that go up on the
 **Celeste Aronow:** Yeah.
 **Travis Frisinger:** website. So, we'll obviously get his eye on here as
 **Celeste Aronow:** Yeah. Yeah.
 **Travis Frisinger:** well.
-**Celeste Aronow:** I think I got put with Sean because I'm clearly heading in this leadership direction.  
+**Celeste Aronow:** I think I got put with Shawn because I'm clearly heading in this leadership direction.  
    
  
 
