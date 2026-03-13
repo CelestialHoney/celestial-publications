@@ -73,68 +73,26 @@ They've probably already run some automated tooling (axe, Lighthouse, maybe an L
 - "We don't know what we don't know about our disabled users' experience"
 - "We want to do the right thing but don't know how to get there"
 
-**The business case — three angles:**
+**The business case — three angles:** revenue, legal risk, certifications.
 
-*1. Revenue*
-Disability is not a niche market — it is one of the largest underserved markets.
-According to WHO, 1.3 billion people experience significant disability globally — 16% of the world population, or 1 in 6.
-The Return on Disability Group's *Global Economics of Disability: 2024* report uses a broader definition and puts the figure at 1.6 billion people (22% of the global population).
-And 1 in 3 people will develop a disability in their lifetime, meaning this is not a permanent minority: it is the eventual reality for a third of your users.
-75% of disabilities are non-apparent, which means the users affected are largely invisible in user research and testing — unless you're specifically looking for them.
-That market controls over $18 trillion in global spending, with people with disabilities in North America and Europe alone controlling more than $2.6 trillion in disposable income.
-(Source: Return on Disability Group, *The Global Economics of Disability: 2024*, via Benefits and Pensions Monitor: https://www.benefitsandpensionsmonitor.com/benefits/chronic-illness-disabilities/report-unveils-18-trillion-disability-market/388725)
-As RoDG CEO Rich Donovan put it: "The disability market is the largest emerging market in the world, yet materially all organizations fail to capture its full value."
-These users actively choose products that work for them and drop ones that don't — accessibility is a competitive advantage, not just a compliance checkbox.
-An inaccessible product isn't just ethically wrong; it is leaving a massive addressable market on the table.
-Framing: if your product is inaccessible, you're not competing for millions of users who are actively looking for something usable.
-A specialist who closes that gap doesn't cost you money — they unlock revenue.
-Companies that lead in disability inclusion realize measurable financial outperformance: 1.6x+ revenue, 2.6x+ net income, 2x+ economic profit, and are 25% more productive versus competitors.
-These figures come from Accenture's 2023 report *The Disability Inclusion Imperative* (co-published with Disability:IN), based on 346 organizations tracked through the Disability Equality Index between 2015 and 2022.
-It is an update to the 2018 *Getting to Equal: The Disability Inclusion Advantage* — the original source most existing citations reference.
-(Sources: Disability:IN portal https://portal.disabilityin.org/ ; Forbes coverage https://www.forbes.com/sites/gusalexiou/2023/11/30/latest-accenture-research-confirms-disability-inclusive-companies-are-more-profitable/)
-The same report also found that 76% of employees do not fully disclose their disability at work, and only 4.6% self-identify their disability status with employers.
-This compounds the 75% non-apparent stat above: not only are most disabilities invisible, most employees with disabilities are actively not disclosing them — meaning standard user research and internal employee data both systematically undercount the affected population.
-Additional data point: accessible websites rank for 27% more keywords and see higher organic search traffic — accessibility is also an SEO multiplier. (Source: cited in G3ict/IAAP research — verify primary source.)
-WHO also notes a $10 return for every $1 spent on implementing disability-inclusive prevention and care — a cost-benefit framing that may be useful depending on how the article angles the investment case. (Source: https://www.who.int/news-room/fact-sheets/detail/disability-and-health)
-On the cost side: the DOL's Job Accommodation Network found that nearly 50% of workplace accommodations cost nothing to implement, and the median one-time cost for those that do have a cost is $300.
-68.4% of employers reported accommodations as very or extremely effective; more than half made them specifically to retain valued employees.
-(Source: JAN/DOL, *Accommodation and Compliance: Low Cost, High Impact*, 2023, https://www.dol.gov/newsroom/releases/odep/odep20230504)
-Note: this data is about workplace accommodations, not digital product accessibility directly — but the "low cost, high impact" framing may be useful if the article addresses the objection that accessibility work is expensive or disruptive.
+Full statistics, citations, and framework details are in [`accessibility-business-case-reference.md`](../accessibility-business-case-reference.md).
 
-*2. Legal risk — ADA and EAA*
-In the US, the Americans with Disabilities Act (ADA) applies to digital products.
-Web accessibility lawsuits have increased dramatically year over year — 2,200+ filed annually (verify/update with current figure and source).
-The EU Accessibility Act (EAA) became enforceable June 28, 2025, covering e-commerce, banking, smartphones, and computers — essentially any digital product or service sold in the EU.
-The EAA mandates WCAG 2.1 Level AA compliance and requires a public accessibility statement for each website and app.
-Additionally, WCAG 2.2 was formally adopted as ISO/IEC 40500:2025, elevating it from an advisory guideline to an international standard now referenced in procurement contracts and legal defense.
-Non-compliance is no longer just an ethical failure — it is a legal and financial liability.
-"We ran automated tools" is not a defensible position. Tools have known, documented coverage gaps.
-Only a genuine audit with human validation can establish a meaningful compliance posture.
+Key framing points for this article:
 
-*3. Certifications and accountability frameworks*
-B Corp accreditation evaluates companies on social and environmental impact, including how they treat all stakeholders — workers, communities, customers.
-Accessibility is directly relevant to B Corp's equity and inclusion criteria.
-Genuine WCAG compliance signals that an org walks the talk on inclusion — not just internally but in the products they ship to the world.
-For companies pursuing or holding B Corp status, accessibility isn't optional optics. It's part of the standard.
-(Worth noting: "compliance theater" — passing automated tools without real validation — won't satisfy this either. B Corp asks for substance.)
+*Revenue:* Disability is not a niche market.
+1 in 3 people will develop a disability in their lifetime — this is the eventual reality for a third of your users.
+75% of disabilities are non-apparent, meaning affected users are largely invisible in standard research and testing.
+The market controls over $18 trillion in global spending.
+Companies that lead in disability inclusion outperform competitors: 1.6x+ revenue, 2.6x+ net income, 2x+ economic profit.
+A specialist who closes the accessibility gap doesn't cost you money — they unlock revenue.
 
-Beyond B Corp, there is a broader ecosystem of certifications where genuine accessibility compliance is required — not just tool results:
+*Legal risk:* The ADA applies to digital products.
+The EU Accessibility Act became enforceable June 28, 2025.
+WCAG 2.2 is now ISO/IEC 40500:2025 — an international standard referenced in procurement contracts and legal defense.
+"We ran automated tools" is not a defensible compliance posture.
 
-- **Disability Equality Index (DEI):** A scored benchmark (0–100) from the American Association of People with Disabilities (AAPD) and Disability:IN.
-  Companies scoring 80+ are recognized as "Best Place to Work for Disability Inclusion."
-  The "Enterprise-Wide Access" category explicitly evaluates digital accessibility policies and WCAG 2.1 AA compliance.
-  This is a public, named ranking — brand exposure cuts both ways.
-- **IAAP Business Accessibility Criteria (BAC):** A program from the International Association of Accessibility Professionals covering 14 topic areas (leadership, procurement, design/build/test, HR, communications).
-  After six months of participation and data sharing, orgs receive a Business Digital Commitment Badge (via Credly) — a verifiable public signal that accessibility is embedded in strategy, not just stated.
-- **ESG and sustainability reporting (CSRD):** Environmental, Social, and Governance frameworks now treat digital accessibility as an "ethical benchmark" in social performance reporting.
-  The EU's Corporate Sustainability Reporting Directive (CSRD) requires external assurance over ESG disclosures — WCAG 2.1/2.2 compliance is increasingly used as proof of social performance in these audits.
-  Automated-tool results won't satisfy an ESG auditor. Documented, human-validated compliance will.
-- **ISO 26000 (Social Responsibility):** A guidance standard applicable to all org types — private, public, and non-profit.
-  Its core subjects (Human Rights, Consumer Issues, Community Involvement) require digital accessibility as a tool for equity.
-  This is the closest analog to B Corp for nonprofits and public sector orgs. (Partial answer to the open question below.)
-
-The unifying point for the article: every one of these frameworks requires substance, not theater.
-Automated tool results create the appearance of compliance — they don't produce the documented, human-validated record that any of these certifications or audits require.
+*Certifications:* DEI, IAAP BAC, B Corp, ESG/CSRD, ISO 26000 all require substance, not theater.
+Automated tool results create the *appearance* of compliance — they don't produce the documented, human-validated record these frameworks require.
 
 ---
 
@@ -159,9 +117,8 @@ Based on the emotional arc (concern → recognition → hope) and the writing sy
 - What does 8th Light uniquely offer that automation cannot replace?
 - Is there a good frame for explaining *why* screen reader simulation is fundamentally different from the real thing (for a non-technical buyer)?
 - What percentage / rough stats exist on how much automated tools miss? (Worth citing if available — and frame it as a risk signal: "they missed X% of issues.")
-- Disability market size stats to include: how many users, what spending power, what conversion/retention impact of accessibility? (Need citations.)
-- **B Corp nonprofit equivalent:** B Corp certification is specifically for for-profit companies. Partial answer found: ISO 26000 is a social responsibility guidance standard explicitly covering private, public, and non-profit organizations — it may be the closest structural analog. The DEI and BAC programs (see certifications section above) are also org-type-agnostic. Celeste to confirm whether any of these fully satisfy the original question.
 - **Concrete "big hitter" WCAG violations:** Research which specific WCAG violations automated tools are known to miss that would resonate with a business reader. Use Gemini Deep Research. Goal: a short list of violations that make a reader think "Oh gosh, we might have that."
+- Disability market stats and citations → see [`accessibility-business-case-reference.md`](../accessibility-business-case-reference.md).
 
 ---
 
